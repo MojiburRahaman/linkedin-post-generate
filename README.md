@@ -15,8 +15,8 @@ This project packages a LangChain-based command-line assistant that runs inside 
 
    ```env
    GITHUB_TOKEN=your_github_models_token               # required
-   GITHUB_BASE_URL=https://models.github.ai/inference  # optional override
-   GITHUB_MODEL=openai/gpt-4o-mini                     # optional override
+   GITHUB_BASE_URL=https://models.github.ai/inference  # required
+   GITHUB_MODEL=openai/gpt-4o-mini                     # required
    ```
 
    Replace the sample values with your actual credentials. `GITHUB_BASE_URL` and `GITHUB_MODEL` default to GitHub’s public endpoint and `openai/gpt-4o` if omitted.
