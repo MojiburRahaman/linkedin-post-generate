@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app
+    env_file:
+      - .env
+    volumes:
+      - ./src:/app/src:rw
+      - ./.env:/app/.env:ro
+
+
