@@ -2,6 +2,8 @@
 
 This project packages a LangChain-based command-line assistant that runs inside Docker. The provided `Makefile` orchestrates all project interactions, so you never have to execute project commands directly on the host.
 
+![Demo](./demo.gif)
+
 ## Prerequisites
 
 - Docker and Docker Compose installed and running
